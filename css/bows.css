@@ -1,0 +1,446 @@
+html
+{
+	height:100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background: white;
+}
+
+body{
+	background: linear-gradient(white, white, #ea4b8e);
+	background-repeat: no-repeat;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Sacramento', sans-serif;
+	font-weight: bold;
+	color: rgb(234,75,142);
+	text-align: center;
+
+}
+
+div form h4{
+	color: black;
+}
+
+#faq h3{
+	font-family: 'Heebo',sans-serif;
+	text-align: left;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+#faq p{
+	margin-left: 10px;
+	margin-bottom: 2.5px;
+}
+
+.loginTable{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.loginTable td{
+	padding-left: 10px;
+	text-align: left;
+	
+}
+
+.loginTable a{
+	text-align: center;
+}
+
+.createAccountTable{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.createAccountTable td{
+	padding-bottom: 10px;
+	text-align: left;
+	
+}
+
+.createAccountTable button{
+	float: right;
+}
+
+div.row div.col-sm-4.text-center h4{
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+div.row div.col-sm-4.text-center p{
+	padding-top: 10px;
+}
+
+.carousel-inner img{
+	width: 500px;
+	length: 500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+p
+{
+	@import url('https://fonts.googleapis.com/css?family=Heebo:100');
+	font-family: 'Heebo', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+header table a{
+	color: rgb(234,75,142);
+	text-transform: uppercase;
+	font-family: 'Heebo', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.item{
+	 margin-top: 25px; 
+	 margin-bottom: 25px;
+}
+
+header table a:hover{
+	
+	text-decoration: none;
+}
+
+#about img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+table.aboutText p{
+	margin: 7.5px;
+}
+
+img.aboutImg{
+	margin-top: 25px;
+}
+
+
+table, td
+{
+	text-align:left;
+}
+
+header
+{
+	height: 100%;
+	border-bottom-style:double;
+	border-bottom-color: rgb(234,75,142);
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+
+header img
+{
+	width: 275px;
+	height: 150px;
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+}
+
+header table
+{
+	margin-left: 80%;
+	display: inline-block;
+	margin-top: -100px;
+	float: left;
+}
+
+.banner{
+
+	display: inline-block;
+	color: rgb(234,75,142);
+	padding-left: 15px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	border-left:thin;
+	border-left-color:rgb(252,57,140);
+	border-left-style:solid;
+	
+}
+
+.banner h1{
+	font-size: 100px;
+	margin-left: 5px;
+	letter-spacing: 3px;
+}
+
+.banner h3{
+	font-family: 'Heebo';
+	color: black;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	margin-left: 65%;
+}
+
+
+td > a > img {
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+
+li
+{
+	color: rgb(234,75,142);
+}
+
+
+
+footer
+{
+	border-top:thick;
+	border-top-color:rgb(252,57,140);
+	border-top-style:solid;
+	margin-top: 100px;
+	padding-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	clear: right;
+	position: relative;
+}
+
+.nav.navbar-nav li a {
+	color: rgb(234,75,142);
+	background-color:white;
+	width:auto;
+	font-size:15px;
+	font-family: 'Heebo', sans-serif;
+	letter-spacing: 2px;
+	font-weight: bold;
+
+}
+
+ul.nav.navbar-nav
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.container-fluid
+{
+	
+	background-color:white;
+	border-color:rgb(234,75,142);
+	border-style:solid;
+	border-width:thin;
+}
+
+li>ul
+{
+	width: 10%;
+	text-align: center;
+	vertical-align: middle;	
+}
+
+
+
+
+
+
+
+
+
+.formleft
+{
+	border-top: thin;
+	border-top-style: double;
+	border-top-color: rgb(234,75,142);
+	padding-top:15px;
+	padding-right:15px;
+	width:50%;
+	float:left;
+	text-indent:15px;
+	font-size:15px;
+	
+}
+
+.table, .table tbody
+{
+	border: thin;
+	border-style: double;
+	border-color: rgb(234,75,142);
+	padding-top:15px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	
+	
+}
+
+.table tr{
+	border-bottom: hidden;
+}
+
+.table tr:last-child{
+	border: thin;
+	border-style: double;
+	border-color: rgb(234,75,142);
+}
+
+.table td{
+	text-align: left;
+	padding-bottom: 0px;
+}
+
+table.cart{
+	margin-left: auto;
+	margin-right: auto;
+}
+table.cart th{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+}
+
+.paypalButton{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1%;
+	margin-top: 10px;
+}
+
+.bow{
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.bow input{
+	width: 40px;
+	height: 25px;
+	margin-right: 50px;
+}
+	
+.bow a{
+	padding-right: 50px;
+}
+
+.shopRight .row{
+	padding-bottom: 50px;
+}
+
+
+.form
+{
+	width:100%;
+}
+
+.nav2 ul
+{
+	list-style:none;
+}
+
+.nav2left
+{
+	width: 15%;
+
+	height:100%;
+	float:left;
+	
+}
+
+.bowShop
+{
+	width: 100%;
+}
+
+.shopRight
+{
+	width: 80%;
+	float: right;
+	border-left: thin;
+	border-left-color: rgb(234,75,142);
+	border-left-style:solid;
+	padding-left:15px;
+}
+
+.nav2 ul li
+{
+	font-weight:bold;
+	font-size:16px;
+}
+
+.nav2 ul li a
+{
+	color: rgb(234,75,142);
+}
+
+.faqh3
+{
+	font-size:20px;
+	text-decoration:underline;
+	color: rgb(234,75,142);
+	text-align:center;
+	font-weight:bolder;
+	
+}
+
+.pc
+{
+	text-indent: 15px;
+	float:left;
+	width:45%;
+}
+
+.sp
+{
+	text-indent: 15px;
+	width:50%;
+	float:right;
+	border-left: thin;
+	border-left-color: rgb(234,75,142);
+	border-left-style:solid;
+	padding-left: 20px;
+}
+
+hr
+{
+	border: 1px solid black;
+}
+
+
+.lefthead
+{
+	float: left;
+	width: 30%;
+}
+
+.midhead
+{
+	float: left;
+	width: 30%;
+}
+
+.righthead
+{
+	float: left;
+	width: 30%;
+}
+
+.clearhead
+{
+	clear: left;
+}
+
+.fullhead
+{
+	width:100%;
+}
